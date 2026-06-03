@@ -9,6 +9,8 @@ This project implements a character-level GPT Transformer trained on Shakespeare
 - `train.py`: Training script including data loading, training loop, validation, checkpointing, and text generation.
 - `data_prep.py`: Utility to load and preprocess text data.
 - `input.txt`: Shakespeare corpus used for training.
+- `best_model.pt` [MUST download from Drive]:  
+  [Google Drive link](https://drive.google.com/file/d/1EQWClObri2oUdfVlBg-LIIWBn-oZxfcy/view?usp=sharing) — pretrained model checkpoint.
 
 ## How to Run
 
@@ -18,9 +20,9 @@ This project implements a character-level GPT Transformer trained on Shakespeare
    ```
 
 2. Prepare data:
-   - Ensure `input.txt` is in the project directory.
+   - Ensure `input.txt` and `best_model.pt` are placed in the project directory.
 
-3. Train the model:
+3. Train the model (optional, can skip if you only want to generate text):
    ```
    python train.py --train
    ```
